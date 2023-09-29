@@ -1,0 +1,59 @@
+table {
+  width: 800px;
+}
+th {
+  text-align: left;
+}
+table,
+th,std {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 15px;
+}
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+body {
+  background-color: lightpink;
+}
+th {
+  background-color: red;
+  color: white;
+}
+#lunch {
+  writing-mode: vertical-lr;
+  text-align: center;
+  text-orientation: upright;
+}
+
+.courses-menu-item {
+  display: flex;
+  gap: 5px
+}
+
+.profile-icon {
+    padding: 2px;
+    background-color: red;
+    border-radius: 50%
+}
+
+.content {
+  position: relative;
+  left:110px;
+  bottom:30px;
+}
+.table{
+  position:relative;
+  left:320px;
+  top: 0px;
+  height:400px;
+  width:1000px;
+  border-bottom: 3px solid #D63231;}
+
+
+  
