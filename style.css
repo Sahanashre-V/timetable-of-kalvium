@@ -4,8 +4,7 @@ table {
 th {
   text-align: left;
 }
-table,
-th,std {
+table,th,std {
   border: 1px solid #000;
   border-collapse: collapse;
 }
@@ -54,6 +53,27 @@ th {
   height:400px;
   width:1000px;
   border-bottom: 3px solid #D63231;}
+  .course{
+    position:relative;
+    left:1100px;
+    bottom:90px;
+    color:red;
+  }
+  .student{
+    position:relative;
+    left:940px;
+    bottom:90px;
+    color:red;
+  }
+  .profile{
+    position:relative;
+    left:1000px;
+    bottom:90px;
+    background-color:red;
+  }
+.time{
+padding:25px;
+}
 
 
   
